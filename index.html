@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pawanesh_Portfolio</title>
+  <!-- Include Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <!-- Include Bootstrap JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  <style>
+    /* CSS for the messages */
+    .message {
+      display: none;
+      animation: fadeInOut 5s linear infinite;
+      font-size: 18px; /* Adjust font size as needed */
+      text-align: center; /* Center the text */
+      margin-top: 10px; /* Add some margin for spacing */
+      margin-bottom: 20px; /* Add some margin for spacing */
+    }
+
+    /* Keyframes animation for fading in and out */
+    @keyframes fadeInOut {
+      0%, 100% {
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+  <!-- nav -->
+  <nav class="nav">
+    <div class="container">
+      <nav class="nav-row">
+        <!-- logo -->
+        <a href="./index.html" class="logo">My Portfolio</a>
+        <!-- dark-light-swith -->
+        <button class="dark-mode-btn">
+          <img src="./img/icons/sun.svg" alt="Light mode" class="dark-mode-btn__icon">
+          <img src="./img/icons/moon.svg" alt="Dark mode" class="dark-mode-btn__icon">
+        </button>
+        <!-- navigation -->
+        <ul class="nav-list">
+          <li class="nav-list__item"><a href="./index.html" class="nav-list__link nav-list__link--active">About</a></li>
+          <li class="nav-list__item"><a href="./work.html" class="nav-list__link">Work Experience</a></li>
+          <li class="nav-list__item"><a href="./education.html" class="nav-list__link">Education</a></li>
+          <li class="nav-list__item"><a href="./skills.html" class="nav-list__link">Skills</a></li>
+          <li class="nav-list__item"><a href="./contacts.html" class="nav-list__link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </nav>
+
+  <!-- header -->
+  <header class="header">
+    <div class="header__wrapper">
+      <h1 class="header__title">
+        Hi, I'm <strong><em>Pawanesh</em></strong><br>
+
+        <h2 class="title-2">I'm passionate for learning new things </h2>
+      </h1>
+      <div class="container mt-3">
+        <div id="message1" class="message alert ">
+          <strong>A Front End Developer</strong>
+        </div>
+        <div id="message2" class="message alert ">
+          <strong>A Data Analyst</strong>
+        </div>
+        <div id="message3" class="message alert ">
+          <strong>A Problem Solver</strong>
+        </div>
+        <div id="message4" class="message alert ">
+          <strong>Upcoming Software Developer</strong>
+        </div>
+      </div>
+      <!-- <div class="header__text">
+        <p>with passion for learning and innovation</p>
+      </div> -->
+      <a href="https://drive.google.com/file/d/1Qu4_98ZK7gNcnKcY-0mIIdHjxqdS_F9l/view?usp=sharing" class="btn" target="_blank">Download Resume</a>
+    </div>
+  </header>
+
+  <!-- section -->
+  <main class="section">
+    <div class="container">
+      <!-- <h2 class="title-1">Projects</h2> -->
+      <h2 class="title-2 text-center">About Me</h2>
+
+      <h3 class="title-3 text-center">Hello! I'm Pawanesh Mishra, a Computer Science enthusiast currently pursuing my Master's in Computer Science and Engineering at NITK, Surathkal. <br><br>I'm passionate about software development and web technologies, with experience in data extraction and web development from my internships. <br><br>Explore my portfolio to see my projects and skills in action! </h3>
+
+      <br><br><br>
+      <h2 class="title-2 text-center">Hobbies</h2>
+      <br>
+      <ul class="projects">
+        <li class="project">
+          <a href="./project-page.html" class="projects__link">
+            <img class="project__img" src="./img/projects/01.webp" alt="pro-1">
+            <h3 class="project__title">Cricket</h3>
+          </a>
+        </li>
+
+        <li class="project">
+          <a href="./project-page.html" class="projects__link">
+            <img class="project__img" src="./img/projects/02.jpg" alt="pro-2">
+            <h3 class="project__title">Football</h3>
+          </a>
+        </li>
+
+        <li class="project">
+          <a href="./project-page.html" class="projects__link">
+            <img class="project__img" src="./img/projects/03.jpeg" alt="pro-3">
+            <h3 class="project__title">Travelling</h3>
+          </a>
+        </li>
+
+        <li class="project">
+          <a href="./project.html" class="projects__link">
+            <img class="project__img" src="./img/projects/04.jpg" alt="pro-4">
+            <h3 class="project__title">Sketching</h3>
+          </a>
+        </li>
+      </ul>
+      
+    </div>
+  </main>
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <!-- icons-links -->
+        <ul class="social">
+          <!-- <li class="social__item">
+            <a href="#!"><img src="./img/icons/vk.svg" alt="VK_Link"></a>            
+          </li> -->
+
+          <!-- <li class="social__item">
+            <a href="#!"><img src="./img/icons/instagram.svg" alt="Inst_Link"></a>
+          </li> -->
+
+          <!-- <li class="social__item">
+            <a href="#!"><img src="./img/icons/twitter.svg" alt="Twit_Link"></a>
+          </li> -->
+
+          <li class="social__item">
+            <a href="mailtto:pawaneshmishra.232cs023@nitk.edu.in"><img src="./img/icons/gmail.svg" alt="Gmail_Link"></a>
+          </li>
+          
+          <li class="social__item">
+            <a href="https://www.github.com/Pawaneshmishra"><img src="./img/icons/gitHub.svg" alt="Git_Link"></a>
+          </li>
+
+          <li class="social__item">
+            <a href="https://www.linkedin.com/in/pawanesh-mishra"><img src="./img/icons/linkedIn.svg" alt="Linked_Link"></a>
+          </li>
+        </ul>
+        
+        <div class="copyright">
+          <p> 2023 @github.com/Pawaneshmishra </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/main.js"></script>
+  <script>
+    // Function to toggle the visibility of messages one by one
+    function toggleMessages() {
+      const messages = document.querySelectorAll('.message');
+      let currentIndex = 0;
+
+      function toggleMessage(index) {
+        messages[index].style.display = 'block';
+        setTimeout(function () {
+          messages[index].style.display = 'none';
+          currentIndex++;
+          if (currentIndex >= messages.length) {
+            currentIndex = 0; // Reset to the first message
+          }
+          toggleMessage(currentIndex);
+        }, 2000); // Adjust the delay (in milliseconds) as needed
+      }
+
+      toggleMessage(currentIndex);
+    }
+
+    // Start the message animation
+    toggleMessages();
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pawanesh_Portfolio</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <!-- Include Bootstrap CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+<!-- Include Bootstrap JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+  <!-- nav -->
+  <nav class="nav">
+    <div class="container">
+      <nav class="nav-row">
+        <a href="./index.html" class="logo">Pawanesh Mishra</a>
+        <!-- dark-light-swith -->
+        <button class="dark-mode-btn">
+          <img src="./img/icons/sun.svg" alt="Light mode" class="dark-mode-btn__icon">
+          <img src="./img/icons/moon.svg" alt="Dark mode" class="dark-mode-btn__icon">
+        </button>
+        <!-- navigation -->
+        <ul class="nav-list">
+          <li class="nav-list__item"><a href="./index.html" class="nav-list__link">About</a></li>
+          <li class="nav-list__item"><a href="./work.html" class="nav-list__link nav-list__link--active">Work Experience</a></li>
+          <li class="nav-list__item"><a href="./education.html" class="nav-list__link">Education</a></li>
+          <li class="nav-list__item"><a href="./skills.html" class="nav-list__link">Skills</a></li>
+          <li class="nav-list__item"><a href="./contacts.html" class="nav-list__link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </nav>
+  <!-- section-01 -->
+  <main class="section">
+    <!-- <div class="container">
+      <ul class="content-list">
+        <li class="content-list__item">
+            <h2 class="title-2">Frontend</h2>
+            <p>JavaScript, TypeScript, ReactJS, Angular, Redux, HTML, CSS, NPM, BootStrap, MaterialUI, Yarn, TailwindCSS, StyledComponents</p>
+        </li>
+        <li class="content-list__item">
+            <h2 class="title-2">Backend</h2>
+            <p>NodeJS, MySQL, MongoDB, PHP, Laravel</p>
+        </li>
+    </ul>
+    </div> -->
+    <h2 class="title-2 text-center">Work Experience</h2>
+    <br>
+    <ul class="projects">
+      <li class="project">
+        <a href="./project-page.html" class="projects__link">
+          <img class="project__img" src="./img/work/autocodegen.png" alt="pro-1">
+          <h3 class="project__title">Software Development Intern</h3>
+          <h5 class="text-center">AutoCodeGen</h5>
+          <h5 class="text-center">July 2022 - September 2022</h5>
+          <h5 class="text-decoration-underline text-center"><a href="http://drive.google.com/file/d/1A7_FI18s_bwq4EtFJwt6y8bk0kUNONRX/view?usp=drive_link">Learn More</a></h5>
+        </a>
+      </li>
+
+      <li class="project">
+        <a href="./project-page.html" class="projects__link">
+          <img class="project__img" src="./img/work/nagarro.jpeg" alt="pro-2">
+          <h3 class="project__title text-center">Web Development Intern</h3>
+          <h5 class="text-center">AutoCodeGen</h5>
+          <h5 class="text-center">July 2022 - August 2022</h5>
+          <h5 class="text-decoration-underline text-center"><a href="https://drive.google.com/file/d/1zXlp4SPMeqal3VMnyLnJiw90d02SRSKW/view?usp=drive_link">Learn More</a></h5>
+        </a>
+      </li>
+    </ul>
+
+
+  </main>
+  <!-- footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <!-- icons-links -->
+        <ul class="social">
+          <!-- <li class="social__item">
+            <a href="#!"><img src="./img/icons/vk.svg" alt="VK_Link"></a>            
+          </li> -->
+
+          <!-- <li class="social__item">
+            <a href="#!"><img src="./img/icons/instagram.svg" alt="Inst_Link"></a>
+          </li> -->
+
+          <!-- <li class="social__item">
+            <a href="#!"><img src="./img/icons/twitter.svg" alt="Twit_Link"></a>
+          </li> -->
+
+          <li class="social__item">
+            <a href="mailtto:pawaneshmishra.232cs023@nitk.edu.in"><img src="./img/icons/gmail.svg" alt="Gmail_Link"></a>
+          </li>
+          
+          <li class="social__item">
+            <a href="https://www.github.com/Pawaneshmishra"><img src="./img/icons/gitHub.svg" alt="Git_Link"></a>
+          </li>
+
+          <li class="social__item">
+            <a href="https://www.linkedin.com/in/pawanesh-mishra"><img src="./img/icons/linkedIn.svg" alt="Linked_Link"></a>
+          </li>
+        </ul>
+        
+        <div class="copyright">
+          <p> 2023 @github.com/Pawaneshmishra </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/main.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+  // Initialize the carousel
+  var myCarousel = new bootstrap.Carousel(document.getElementById('hobbiesCarousel'), {
+    interval: 5000, // Set the interval between slides (in milliseconds)
+    pause: 'hover', // Pause on hover
+  });
+});
+  </script>
+</body>
+
+</html>
